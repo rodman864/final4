@@ -1,0 +1,3 @@
+/Users/antonio/Desktop/CS133/MckinneyDiner/MckinneyDiner/obj/Debug/netcoreapp3.1/MckinneyDiner.AssemblyInfoInputs.cache
+/Users/antonio/Desktop/CS133/MckinneyDiner/MckinneyDiner/obj/Debug/netcoreapp3.1/MckinneyDiner.AssemblyInfo.cs
+/Users/antonio/Desktop/CS133/MckinneyDiner/MckinneyDiner/obj/Debug/netcoreapp3.1/MckinneyDiner.csproj.CoreCompileInputs.cache
