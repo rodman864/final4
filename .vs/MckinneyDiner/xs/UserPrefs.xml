@@ -1,15 +1,19 @@
 ﻿<Properties StartupConfiguration="{C91CA181-78E5-4152-AE1C-E56795A660BC}|Default">
   <MonoDevelop.Ide.ItemProperties.MckinneyDiner PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MckinneyDiner/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MckinneyDiner/MyDinerTest/UnitTest1.cs">
     <Files>
-      <File FileName="MckinneyDiner/Program.cs" Line="51" Column="99" />
+      <File FileName="MckinneyDiner/Program.cs" Line="51" Column="1" />
+      <File FileName="MckinneyDiner/MyDinerTest/UnitTest1.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MckinneyDiner" expanded="True">
             <Node name="MckinneyDiner" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="MyDinerTest" expanded="True">
+                <Node name="UnitTest1.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

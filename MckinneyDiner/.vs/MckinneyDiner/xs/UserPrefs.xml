@@ -2,19 +2,19 @@
   <MonoDevelop.Ide.ItemProperties.MckinneyDiner PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="MyDinerTest/UnitTest1.cs">
     <Files>
-      <File FileName="Program.cs" Line="77" Column="48" />
-      <File FileName="MyDinerTest/UnitTest1.cs" Line="29" Column="42" />
+      <File FileName="Program.cs" Line="8" Column="6" />
+      <File FileName="MyDinerTest/UnitTest1.cs" Line="69" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MckinneyDiner" expanded="True">
             <Node name="MckinneyDiner" expanded="True">
-              <Node name="MyDinerTest" expanded="True">
-                <Node name="UnitTest1.cs" selected="True" />
-              </Node>
+              <Node name="MyDinerTest" expanded="True" />
             </Node>
-            <Node name="MyDinerTest" expanded="True" />
+            <Node name="MyDinerTest" expanded="True">
+              <Node name="UnitTest1.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

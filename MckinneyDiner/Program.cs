@@ -7,6 +7,7 @@ namespace Diner
     public class MckinneyDiner
     {
         public InWaiting CurrentlyWaiting { get; set; }
+        public PaidCustomer CleanTable { get; set; }
         private Queue<int> waitingQueue = new Queue<int>();
 
         public void addCustomerToQueue(int parameter)
@@ -43,9 +44,15 @@ namespace Diner
         private Stack<String> DirtyDish = new Stack<string>();
         private Stack<string> CleanDish = new Stack<string>();
 
-        public void CustomerDishes(string Dishes)
+        public bool CustomerDishes(PaidCustomer paidCustomer )
         {
-            DirtyDish.Push(Dishes);
+            if (paidCustomer.CleanedTable)
+                return true;
+
+            if (paidCustomer.SentToWash != paidCustomer.CleanedTable)
+                return true;
+
+            return false;
 
         }
         public void CleanTheDishes()
@@ -82,6 +89,13 @@ namespace Diner
         public class AddedToQue
         {
             public string isAddedToQue { get; set; }
+        }
+        public class PaidCustomer
+        {
+            public string Customer1 { get; set; }
+            public bool CleanedTable { get; set; }
+            public bool DirtyDish { get; set; }
+            public bool SentToWash { get; set; }
         }
        
         

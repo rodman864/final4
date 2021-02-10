@@ -38,5 +38,36 @@ namespace MyDinerTest
             Assert.IsTrue(showCustomer);
 
         }
+        [TestMethod]
+        public void CustomerDishes_paid_ReturnTrue()
+        {
+            //Arrange
+            MckinneyDiner inQue = new MckinneyDiner();
+
+            PaidCustomer newCustomer = new PaidCustomer();
+            newCustomer.Customer1 = "Ron";
+            newCustomer.CleanedTable = true;
+            newCustomer.SentToWash = true;
+
+
+            inQue.CleanTable = newCustomer;
+
+
+
+            //Act
+            PaidCustomer newPerson = new PaidCustomer();
+            newPerson.DirtyDish = false;
+            newPerson.SentToWash = false;
+            
+
+            inQue.CleanTable = newPerson;
+
+            bool CustomerDishes = inQue.CustomerDishes(newPerson);
+
+
+            //Assert
+            Assert.IsTrue(CustomerDishes);
+
+        }
     }
 }
